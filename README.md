@@ -8,7 +8,7 @@ Part of our method, is the use of extra generated data. Our generated data can a
 ## How to run our scripts
 
 ### Subtask A monolingual & Subtask B
-These subtasks utilize the same scripts to run/test models. To run the scripts, simply call python3 <script_name>. It is possible to input your own values for hyperparameters and specify different models, by using command-line arguments. For more information, run the -help command-line argument, i.e., python3 <script_name> -help
+These subtasks utilize the same scripts to run/test models. To run the scripts, simply call python3 <script_name>. It is possible to input your own values for hyperparameters and specify different models, by using command-line arguments. For more information, run the -help command-line argument, i.e., python3 model_task_A_mono -help
 
 ### Subtask A multilingual
 
