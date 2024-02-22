@@ -12,7 +12,9 @@ These subtasks utilize the same scripts to run/test models. To run the scripts, 
 
 ### Subtask A multilingual
 'split.py' is used to split the train and dev set into different languages according to 'source'. 
+
 To run 'fold.py', you can call python3 <script_name> --path <file_name> --model <model_name>. The hyperparameters and the fold number can be changed in the file.
+
 All saved best models for each language are necessary to run 'prediction.py'. The command line 'python3 <script_name>' can easily run.
 
 ## Generated Data
