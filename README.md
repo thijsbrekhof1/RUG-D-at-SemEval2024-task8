@@ -18,3 +18,9 @@ To run 'fold.py', you can call python3 <script_name> --path <file_name> --model 
 All saved best models for each language are necessary to run 'prediction.py'. The command line 'python3 <script_name>' can easily run.
 
 ## Generated Data
+'generate_data.py' can be used to generate extra data with Llama 2. It uses the 7 billion parameter version of the model.
+
+To run the script, call:
+python3 <script_name> --n_pages <n> --language <lowercased_language> --seed <random_seed>
+
+This will result in a file named 'extra_<language>.jsonl', containing the generated data.
